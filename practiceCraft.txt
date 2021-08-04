@@ -13,4 +13,5 @@
 /createprototype practice noitem; 
 /pause 1;
 
+/pause 10;
 /macro practiceCraft;
