@@ -1,0 +1,16 @@
+# Unit cell of a practice crafting macro
+# Copy-paste the large block for each of the crafting tools on your hotbar
+# Adjust the pause times as best suited for you
+
+/ui action toolbarSlot00;
+/pause 1;
+/ui action defaultButton;
+/pause 10;
+/nextcraftingstage;
+/nextcraftingstage;
+/nextcraftingstage;
+/createprototype practice noitem; 
+/createprototype practice noitem; 
+/pause 1;
+
+/macro practiceCraft;
